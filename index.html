@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kunal | Software Engineer Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Kunal, a software engineer and learner focused on web, IoT, and AI/ML projects."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container navbar">
+        <a href="index.html" class="brand" aria-label="Kunal home">
+          <span class="brand-mark">K</span>
+          <span>Kunal</span>
+        </a>
+
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a class="button primary" href="projects.html">View Projects</a>
+          <button class="mobile-toggle" type="button" aria-label="Toggle menu">☰</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div>
+            <span class="eyebrow">Software Engineer</span>
+            <h1>
+              Building practical <span class="highlight">digital solutions</span>
+              for real-world problems.
+            </h1>
+            <p class="hero-copy">
+              I am Kunal, a Computer Science student focused on software development,
+              IoT systems, and AI-driven solutions. I enjoy turning ideas into user-friendly
+              experiences and learning by building meaningful projects.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button primary" href="projects.html">Explore Work</a>
+              <a class="button secondary" href="contact.html">Hire Me</a>
+            </div>
+
+            <div class="quick-meta">
+              <div class="stat-pill">
+                <div>
+                  <strong>1+</strong>
+                  <span>Years learning</span>
+                </div>
+              </div>
+              <div class="stat-pill">
+                <div>
+                  <strong>10+</strong>
+                  <span>Projects built</span>
+                </div>
+              </div>
+              <div class="stat-pill">
+                <div>
+                  <strong>3</strong>
+                  <span>Core focus areas</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <aside class="hero-card" aria-label="Profile summary">
+            <h3>Current focus</h3>
+            <span class="mini-label">Web • IoT • AI/ML</span>
+
+            <div class="metric-box">
+              <div class="metric">
+                <strong>Smart Systems</strong>
+                <span>Building responsive, practical solutions for everyday challenges.</span>
+              </div>
+              <div class="metric">
+                <strong>Problem Solving</strong>
+                <span>Turning concepts into prototypes with clean interfaces and logic.</span>
+              </div>
+              <div class="metric">
+                <strong>Continuous Learning</strong>
+                <span>Combining theory with hands-on project work and application.</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Featured projects</h2>
+            <p>Selected work from web development, AI/ML, and IoT innovation.</p>
+          </div>
+
+          <div class="card-grid">
+            <article class="project-card">
+              <span class="tag">AI/ML</span>
+              <h3>Smart Gadget AI</h3>
+              <p>Guides laptop and mobile buyers with recommendations based on their budget and usage.</p>
+              <div class="stack">Python • ML • Web</div>
+            </article>
+
+            <article class="project-card">
+              <span class="tag">Web</span>
+              <h3>Shopit E-commerce</h3>
+              <p>A responsive online shopping experience with browsing, cart flow, and product discovery.</p>
+              <div class="stack">HTML • CSS • JS</div>
+            </article>
+
+            <article class="project-card">
+              <span class="tag">IoT</span>
+              <h3>Smart Irrigation System</h3>
+              <p>Automatically waters crops by checking ambient soil conditions and moisture thresholds.</p>
+              <div class="stack">Sensors • IOT • Automation</div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container two-column">
+          <div class="text-list">
+            <div class="info-card">
+              <h3>What I enjoy building</h3>
+              <p>
+                I like user-focused products that feel simple, fast, and useful. My work spans idea validation,
+                interface design, analytics, and embedded logic.
+              </p>
+            </div>
+
+            <div class="info-card">
+              <h3>How I work</h3>
+              <p>
+                I approach projects by understanding the core problem first, then shaping the solution around speed,
+                clarity, and maintainability.
+              </p>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3>Core strengths</h3>
+            <div class="chip-list">
+              <span class="chip">JavaScript</span>
+              <span class="chip">Python</span>
+              <span class="chip">HTML/CSS</span>
+              <span class="chip">IoT</span>
+              <span class="chip">AI/ML</span>
+              <span class="chip">Problem Solving</span>
+              <span class="chip">Teamwork</span>
+              <span class="chip">Communication</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>© <span id="year"></span> Kunal</span>
+        <span>Available for software engineering opportunities.</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

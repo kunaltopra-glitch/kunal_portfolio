@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Kunal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container navbar">
+        <a href="index.html" class="brand" aria-label="Kunal home">
+          <span class="brand-mark">K</span>
+          <span>Kunal</span>
+        </a>
+
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a class="button secondary" href="mailto:kunalpandit7511@gmail.com">Email Me</a>
+          <button class="mobile-toggle" type="button" aria-label="Toggle menu">☰</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container contact-layout">
+        <div class="contact-panel">
+          <div>
+            <span class="eyebrow">Contact</span>
+            <h2 style="margin-top: 18px; margin-bottom: 12px;">Let’s build something meaningful.</h2>
+          </div>
+
+          <p>
+            I am open to internships, projects, and software engineering opportunities where I can contribute,
+            learn, and grow with a strong team.
+          </p>
+
+          <div class="contact-list">
+            <div class="contact-item">
+              <div>
+                <strong>Email</strong>
+                <span>kunalpandit7511@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div>
+                <strong>Phone</strong>
+                <span>+91 93068 82576</span>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div>
+                <strong>Location</strong>
+                <span>Yamunanagar, Haryana</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-panel">
+          <h3>Send a message</h3>
+          <form id="contactForm" class="contact-form">
+            <input id="name" class="input" type="text" placeholder="Your name" aria-label="Your name" />
+            <input id="email" class="input" type="email" placeholder="Your email" aria-label="Your email" />
+            <textarea id="message" class="textarea" placeholder="Write your message..." aria-label="Your message"></textarea>
+            <button class="button primary" type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>© <span id="year"></span> Kunal</span>
+        <span>Let's connect and collaborate.</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
